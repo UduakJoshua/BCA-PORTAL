@@ -1,0 +1,63 @@
+.form_bg {
+  background: linear-gradient(
+      rgba(241, 205, 205, 0.5),
+      rgba(245, 192, 192, 0.6)
+    ),
+    url(images/school2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.form_horizontal {
+  text-align: center;
+  box-shadow: 12px #6e060e;
+}
+.form_horizontal .title {
+  color: #6e060e;
+}
+
+.column-container {
+  background-color: #fcc9e3;
+  border: 5px solid #6e060e;
+  border-radius: 20px;
+}
+
+.form_horizontal .form_icon {
+  font-size: 100px;
+  color: #f0e8ed;
+  margin: 0 0 20px;
+}
+
+.image {
+  border: 2px solid #6e060e;
+}
+
+.btn {
+  background-color: #6e060e;
+  color: #f0e8ed;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #da6fb2;
+  color: #f8f0f5;
+}
+
+.form_horizontal .input-icon {
+  font-size: 25px;
+  color: #6e060e;
+}
+
+.form-option a {
+  text-decoration: none;
+}
+.form-option a:hover {
+  color: #e63140;
+}
